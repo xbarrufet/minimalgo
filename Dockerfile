@@ -1,3 +1,3 @@
 FROM scratch
 ADD bin/minimalgo /minimalgo
-CMD ["/minimalgo"]
+CMD ["/minimalgo"] 
