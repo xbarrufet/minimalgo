@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	//set redis context
+	//set redis contexxt
 	IPredis := os.Getenv("DB_PORT_6379_TCP_ADDR")
 
 	if IPredis == "" {
